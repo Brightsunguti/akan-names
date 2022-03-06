@@ -1,13 +1,10 @@
-body{
-    background-color: rgb(163, 163, 219);
-}
-.output{
-    height: 200px;
-    width: 600px;
-    background-color: brown;
-    position: absolute;
-    top: 0;
-    left: 300px;
-    display: none;
+ body{
+    background-image: url(./img/babies.jpg);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Fredoka', sans-serif;
     
 }
