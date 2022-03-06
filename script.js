@@ -2,7 +2,7 @@ function submitData() {
      const userBirthday = document.querySelector("input[name=birthday]");
     let formData = new FormData();
     const date = new Date (userBirthday.value);
-    // const day =  date.getDay();
+    const day =  date.getDay();
 
     // const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
     // const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"]
