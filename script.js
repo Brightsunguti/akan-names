@@ -1,5 +1,5 @@
 function submitData() {
-    // const userBirthday = document.querySelector("input[name=birthday]");
+     const userBirthday = document.querySelector("input[name=birthday]");
     // let formData = new FormData();
     // const date = new Date (userBirthday.value);
     // const day =  date.getDay();
