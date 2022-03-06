@@ -1,7 +1,7 @@
 function submitData() {
      const userBirthday = document.querySelector("input[name=birthday]");
-    // let formData = new FormData();
-    // const date = new Date (userBirthday.value);
+    let formData = new FormData();
+    const date = new Date (userBirthday.value);
     // const day =  date.getDay();
 
     // const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
