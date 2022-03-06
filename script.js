@@ -7,6 +7,7 @@ function submitData() {
     const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
     const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"];
 
+    // select userGender inputted by the user
     const userGender = document.querySelector('input[name="gender"]:checked');
     // if(userGender.value == "MALE"){
     //       document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayMale[day]) ;
