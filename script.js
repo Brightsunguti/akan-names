@@ -4,6 +4,7 @@ function submitData() {
     const date = new Date (userBirthday.value);
     const day =  date.getDay();
 
+    // declare arrays
     const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
     const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"];
 
@@ -11,9 +12,9 @@ function submitData() {
     const userGender = document.querySelector('input[name="gender"]:checked');
     if(userGender.value == "MALE"){
           document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayMale[day]) ;
-    // } else{
-    //     document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayFemale[day]);
-    // }
+    } else{
+        document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayFemale[day]);
+    }
 }
 
 
