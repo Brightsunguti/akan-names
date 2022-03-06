@@ -1,36 +1,150 @@
-// select the form from html
-const formData=document.querySelector("form");
+function submitData() {
+    // const userBirthday = document.querySelector("input[name=birthday]");
+    // let formData = new FormData();
+    // const date = new Date (userBirthday.value);
+    // const day =  date.getDay();
 
-// add event listener
-formData.addEventListener("submit" ,receivedData);
+    // const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
+    // const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"]
 
-// prevent default
-function receivedData(e){
-    e.preventDefault();
+    // const userGender = document.querySelector('input[name="gender"]:checked');
+    // if(userGender.value == "MALE"){
+    //       document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayMale[day]) ;
+    // } else{
+    //     document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayFemale[day]);
+    // }
+}
 
-    // select inputs
-    const userBirthday = document.querySelector("input[name=birthday]");
-    const userGender = document.querySelector('input[name="Gender"]');
-    console.log(userGender);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // select the form from html
+// const formInfo=document.querySelector("form");
+
+// // add event listener
+// formInfo.addEventListener("submit" ,receivedData);
+// //document.getElementById("myButton").addEventListener("click");
+
+
+// // //prevent default
+// // function(e){
+// //     e.preventDefault()
+// // }    
+// function submitForm(form){
+//     //form.submit();
+//     alert("here")
+// }
+
+
+//     // select inputs
+//     const userBirthday = document.querySelector("input[name=birthday]");
+//     let formData = new FormData (e.target);
+//     const date = new Date (formData.get("birthday"));
+//     const day =  date.getDay();
+//     alert(day);
+    
+// const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
+// const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"];
+
+// if(userGender.value == "MALE"){
+//       document.getElementById("paragraph").innerHTML = ("This is the date today" + date "and your akan name is" +arrayMale[day]) ;
+// } else{
+//     document.getElementById("paragraph").innerHTML = ("This is the date today" + date "and your akan name is" +arrayFemale[day]);
+// }
+//     const userGender = document.getElementsByName('input:radio[name="gender"]:checked').val();
+    
+//     alert(userGender);
     
 
 
- //validate inputs
+//  //validate inputs
      
-// if (userBirthday.value == ""){
+//  if (userBirthday.value == ""){
 
-//     alert("please select your Birthday")
-//     return
-// }
-// if (userGender == null){
-//     alert("please select your gender")
-//     return
+//    alert("please select your Birthday")
+//      return
+//  }
+//  if (userGender == null){
+//      alert("please select your gender")
+//      return
 
-// }
-// if (userGender.value == "MALE"){
-//     alert("Male selected")
-// }
-// if(userGender.value =="FEMALE"){
+//  }
+//  if (userGender.value == "MALE"){
+//      alert("Male selected")
+//  }
+//  if(userGender.value =="FEMALE"){
 //     alert("Female selected")
-}
-}
+// }
+
+// // }
