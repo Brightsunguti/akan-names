@@ -4,8 +4,8 @@ function submitData() {
     const date = new Date (userBirthday.value);
     const day =  date.getDay();
 
-    // const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
-    // const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"]
+    const arrayMale = ["Kwasi" ,"Kwado" , "Kwabena" , " Kwaku" , "Yaw" ,"Kofi" , "Kwame"];
+    const arrayFemale = ["Akosua" ,"Adwoa" , "Abenaa" , " Akua" , "Yaa" ,"Afua" , "Ama"];
 
     // const userGender = document.querySelector('input[name="gender"]:checked');
     // if(userGender.value == "MALE"){
