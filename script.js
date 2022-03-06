@@ -9,8 +9,8 @@ function submitData() {
 
     // select userGender inputted by the user
     const userGender = document.querySelector('input[name="gender"]:checked');
-    // if(userGender.value == "MALE"){
-    //       document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayMale[day]) ;
+    if(userGender.value == "MALE"){
+          document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayMale[day]) ;
     // } else{
     //     document.getElementById("paragraph").innerHTML = ("You were born on" + date +"and your akan name is " +arrayFemale[day]);
     // }
