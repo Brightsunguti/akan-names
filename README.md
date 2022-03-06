@@ -1,4 +1,4 @@
-<!-- # Akan Name Generator
+# Akan Name Generator
  
  ##### By Albright Sunguti
  ### This is a simple website that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
@@ -6,43 +6,68 @@
 ### Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
  
  ## Table of Content
- 
- + [Description](#description)
+ + [Akan Name Generator](#Project-name)
+ + [Project Description](#Project-description)
  + [Installation Requirement](#Installation)
  + [Technology Used](#technology-used)
+ + [BDD](#BDD)
  + [Reference](#reference)
  + [Licence](#licence)
  + [Authors Info](#author-Info)
+
  
  ## Description
- <p>This is a simple statis site that contains information about my portfolio. It includes a little bit of information about me and the programming languages that i shall learn in the near future.</p>
+ <p>This is a simple website that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p> 
+
+<p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
  
  ## Installation
  
  ### Requirements
  
- * Either a computer,phone,tablet or an Ipad
+ * Either a computer,phone,tablet or an Ipad with storage space.
  
- * An access to the Internet
+ * An access to the Internet since the web page is hosted on an online server
+ * Have Chrome or any other web browser installed on your device.
  
  ### Installation Process
  
- [Go Back to the top](#portfolio)
+ * First, the user must have a text editor installed on their electronic device. common text editors include atom and Visual studio code.
+ * Have a github account, navigate to my repositories and copy the repository link.
+ * Use git init command on your terminal to initiate an empty repo in your files.
+ * Clone the repository by using "git clone + pasted link". This will make all the remote repository files available locally on your machine.
+ * Open the files using the code editor
+ *  Run the code to display the output on the web browser.
  ## Technology Used
  * HTML - which was used to build the structure of the pages
  
  * CSS - which was used to style the pages incuding the left aside navigation bar and image styling
 
  * Bootstrap - which i used to add rows and columns to the page
+
+ * Javascript - to add functionality to the web page
+
+ ## BDD
+### Case One
+ * When:The user does not select their birthday
+ * Then: The user is alerted that the field is mandatory and an input is required
+
+ * When: The user fails to select their gender 
+ * Then:They are notified that the field is required and should be selected.
+
+
  
  ## Reference
  * Materialize CSS
  * Class course content
+ * Google fonts
+ * Pexels.com
+ * w3 schools 
  
  
- [Go Back to the top](#portfolio)
  
- ## Licence
+ 
+ <!-- ## Licence
  
  MIT License
  
@@ -66,13 +91,13 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  
- [Go Back to the top](#portfolio)
- 
+
+  -->
  ## Authors Info
  
- Slack Profile - [Albright Sunguti](https://moringaclassroom.slack.com/team/U032HD2N1BR)
+ * Slack Profile - [Albright Sunguti](https://moringaclassroom.slack.com/team/U032HD2N1BR)
  
- Linked - [Albright Sunguti](https://www.linkedin.com/in/albright-sunguti-405102216/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BNh2x%2Bvb8SCC4Lxni8rynqg%3D%3D)
+ * Linked - [Albright Sunguti](https://www.linkedin.com/in/albright-sunguti-405102216/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BNh2x%2Bvb8SCC4Lxni8rynqg%3D%3D)
  * Twitter [Albright Sunguti](@bright_sunguti)
  
- [Go Back to the top](#portfolio) -->
+ 
