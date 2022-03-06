@@ -67,7 +67,7 @@
  
  
  
- <!-- ## Licence
+ ## Licence
  
  MIT License
  
@@ -92,7 +92,7 @@
  SOFTWARE.
  
 
-  -->
+ 
  ## Authors Info
  
  * Slack Profile - [Albright Sunguti](https://moringaclassroom.slack.com/team/U032HD2N1BR)
