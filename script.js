@@ -1,7 +1,9 @@
 function submitData() {
      const userBirthday = document.querySelector("input[name=birthday]");
     let formData = new FormData();
+    // get user birthday
     const date = new Date (userBirthday.value);
+    // get day number from the date chosen by user
     const day =  date.getDay();
 
     // declare arrays
