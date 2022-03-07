@@ -1,5 +1,5 @@
  body{
-    background-color: #c4c4c4;
+    background-color: rgb(189, 169, 162);
     display: flex;
     justify-content: center; 
     font-family: font-family 'Montserrat', sans-serif;
@@ -8,6 +8,20 @@
     padding: 35px;
  }
 h1{
+   color: rgb(214, 189, 180);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   font: size  80%;
+   padding-top: 15px;
    padding-bottom: 15px;
+   color:rgb(214, 68, 15);
+}
+.col-3 h3{
+   color:rgb(214, 68, 15);
+  
+}
+#paragraph{
+   margin-top: 15px;
+   font-weight: bold;
+   font-style: italic;
 }
     
