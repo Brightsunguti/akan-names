@@ -12,7 +12,7 @@
  + [Technology Used](#technology-used)
  + [BDD](#BDD)
  + [Reference](#reference)
- + [Licence](#licence)
+ + [License](#license)
  + [Authors Info](#author-Info)
 
  
@@ -48,15 +48,19 @@
  * Javascript - to add functionality to the web page
 
  ## BDD
-### Case One
+### Displays form for ectering date and gender
+* Input: "User birthday entered"
+* Input : "User gender entered"
+* Output : Displays user Akan name according to submitted date and gender
+
+### Displays error message
  * When:The user does not select their birthday
  * Then: The user is alerted that the field is mandatory and an input is required
 
  * When: The user fails to select their gender 
  * Then:They are notified that the field is required and should be selected.
-
-
  
+
  ## Reference
  * Materialize CSS
  * Class course content
